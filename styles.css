@@ -13,6 +13,12 @@ div {
     background-color: black;
 }
 
+.back {
+    float: right;
+    margin: 15px;
+    object-fit: contain;
+}
+
 .description {
     font-size: 20px;
     margin: auto;
@@ -50,6 +56,9 @@ li {
     font-family: Aventa, sans-serif;
     font-size: 25px;
     font-weight: bold;
+    padding: auto;
+    margin: auto;
+    object-fit: contain;
 }
 
 .ingredients li {
