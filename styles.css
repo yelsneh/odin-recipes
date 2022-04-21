@@ -1,10 +1,73 @@
 /* style.css */
 
+img {
+    float: right;
+    margin: 0 0 0 15px;
+    max-width: 25%;
+    max-height: 25%;
+    object-fit: contain;
+}
+
 div {
     color: white;
     background-color: black;
 }
 
-p {
-    color: red;
+.description {
+    font-size: 20px;
+    margin: auto;
+    padding: auto;
+    margin-left: 40px;
+}
+
+h1 {
+    font-family: Aventa, sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    margin: auto;
+    padding: auto;
+    margin-left: 40px;
+}
+
+h2 {
+    font-family: Aventa, sans-serif;
+    font-size: 75px;
+    font-weight: bold;
+    margin: auto;
+    padding: auto;
+}
+
+h3 {
+    font-family: Aventa, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin: auto;
+    padding: auto;
+    text-decoration: underline;
+}
+
+li {
+    font-family: Aventa, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.ingredients li {
+    margin-left: 155px;
+}
+
+.steps li {
+    margin-left: 155px;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    color: black;
+}
+
+a:link {
+    color: blue;
 }
